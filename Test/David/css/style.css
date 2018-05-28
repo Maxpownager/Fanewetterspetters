@@ -12,6 +12,7 @@ ul.menu {
 	width: 100px;
 	margin: 0;
 	padding: 0;
+	display: inline;
 	background-color: #f0f0f0;
 }
 li a {
@@ -22,4 +23,7 @@ li a {
 li a:hover {
 	background-color: #555;
 	color: white;
+}
+li a:active {
+	
 }
