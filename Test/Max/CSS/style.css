@@ -10,3 +10,7 @@ a:hover{color:red;
 				text-align:center;
 				}
 body {background-color:#CCE5FF;}
+.roundleftborder{border-bottom: 2px solid blue;
+		border-radius: 5px; 
+
+}
