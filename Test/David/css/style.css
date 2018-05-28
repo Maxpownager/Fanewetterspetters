@@ -1,18 +1,51 @@
 body{
+	min-height: 100%;
 	background-color: #ecffff;
 	font-family: Arial;
 }
+body,div,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,td,textarea,ul {
+ margin:0;
+ padding:0
+}
+
+div.row1 {
+	min-height: 200px;
+	width: 940px;
+	margin: 0px auto;
+}
+div.row2 {
+	min-height: 545px;
+	width: 940px;
+	margin: 0px auto;
+}
+div.row11 {
+	min-height: 100px;
+	width: 940px;
+}
 div.title {
-	max-width: 500px;
-	margin: auto;
+	min-width: 100%;
+	height: 60px;
+	margin: 40px 0px 0px 0px;
+	float: left;
 	text-align: center;
 	color: blue;
+}
+div.row12 {
+	min-height: 100px;
+	width: 940px;
+}
+div.nav {
+	min-width: 100%;
+	height: 75px;
+	margin-top: 25px;
+	float: left;
 }
 ul {
 	display: table;
 	margin: 0 auto;
 	padding: 0;
 	list-style: none;
+	position: static;
 }
 ul li {
 	float: left;
