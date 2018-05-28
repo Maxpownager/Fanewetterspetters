@@ -10,8 +10,21 @@ a:hover{color:red;
 				text-align:center;
 				}
 .roundleftborder{border-left: 2px solid blue;
-	border-radius: 5px;}
-
-body {background-color:#CCE5FF;}
+	border-radius: 5px;
+	padding-left: 20px;
+	margin-left: 100px;
 }
+p.small {
+	line-height: 0.9;
+	letter-spacing:-0.4px;
+}
+p.big {
+	line-height: 1.2;
+	letter-spacing: 0.4px; 
+}
+p.medium {
+	
+}
+body {background-color:#CCE5FF;}
+
 
