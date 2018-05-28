@@ -9,7 +9,9 @@ a:hover{color:red;
 				font-size:18px;
 				text-align:center;
 				}
+.roundleftborder{border-left: 2px solid blue;
+	border-radius: 5px;}
+
 body {background-color:#CCE5FF;}
 }
-.roundleftborder{border-bottom: 2px solid blue;
-	border-radius: 5px;}
+
