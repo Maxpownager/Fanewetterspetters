@@ -15,7 +15,7 @@ nav ul {
 nav ul li {
 	width: 150px;
 	height: 80px;
-	color: white;
+	color: black;
 	text-align: center;
 	line-height: 80px;
 	float:left;
@@ -23,7 +23,7 @@ nav ul li {
 
 nav ul li a {
 	display:block;
-	background: black;
+	border-right: 1px solid black;
 
 }
 
@@ -40,9 +40,8 @@ nav ul li ul li {
 
 nav ul li:hover ul li {
 	display: block;
-	background:black;
-	color:white;
 	text-transform: capitalize;
+	border-left: 1px solid black;
 }
 
 nav .logo {
