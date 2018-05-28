@@ -1,36 +1,37 @@
-body, div, li, ul, a {
+body, div, li, ul, a , p{
 	margin: 0;
 	padding: 0;
 }
 body {
 	font-family: Arial;
-	background-color: tomato;
+	background-color: white;
 }
-ul {
+div.title {
+	margin-right: 20px;
+}
+div.nav ul {
 	list-style: none;
 }
-ul li {
+div.nav ul li {
 	float: left;
-	width: 150px;
+	width: 149px;
 	height: 35px;
+	border-left: 1px solid lightgray;
 	opacity: .9;
-	background-color: #eeeeee;
+	background-color: #ffffff;
 	line-height: 35px;
 	text-align: center;
 }
-ul li a {
+div.nav ul li a {
 	text-decoration: none;
 	display: block;
 }
-ul li a:hover {
-	width: 148px;
-	height: 33px;
-	border: 1px solid white;
+div.nav ul li a:hover {
 	background-color: lightgray;
 }
-ul li ul li {
+div.nav ul li ul li {
 	display: none;
 }
-ul li:hover ul li {
+div.nav ul li:hover ul li {
 	display: block;
 }
