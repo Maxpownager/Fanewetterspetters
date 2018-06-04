@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	background-repeat: no-repeat;
+	
+	background-color: white;
+}
+
+/* Navigation Bar */ 
+
+#globalnav {
+	position: fixed;
+	top:0;
+	right: 0;
+	left: 0;
+	display: block;
+	margin: 0;
+	margin-bottom: 20px;
+	width: 100%;
+	min-width: 1024px;
+	height: 80px;
+	max-height: 100px;
+	background: #fff;
+	opacity: 0.9;
+	font-size: 17px;
+}
+
+nav ul {
+	list-style: none;
+	float: right;
+	text-transform: uppercase;
+}
+
+nav ul li {
+	width: 150px;
+	height: 50px;
+	color: black;
+	text-align: center;
+	line-height: 50px;
+	float:left;
+}
+
+nav ul li a {
+	display:block;
+	border-right: 1px solid black;
+	color: black;
+	text-decoration: none;
+
+}
+
+
+nav ul li a:hover {
+	background:rgb(135,206,250,0.6);
+	outline: none;
+	border-radius: 6px;
+}
+
+nav ul li ul li {
+	display: none;
+}
+
+
+nav ul li:hover ul li {
+	display: block;
+	text-transform: capitalize;
+	border-left: 1px solid black;
+}
+
+nav .logo {
+	float: left;
+	height: 60px;
+	line-height: 50px;
+	padding: 16px 100px;
+	font-size: 24px;
+	padding-right: 0px;
+}
+
+nav .active {
+	background-color: rgb(135,206,250,0.6);
+	outline: none;
+	border-radius: 6px;
+}
+
+/* Content */
+
+#FrontPagePupper {
+	background-image: url('Pupper.png');
+	background-size: cover;
+	min-height: 1024px;
+	height: 80%;
+	min-width: 684px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+h1, p {
+	padding: 0;
+	margin: 0;
+}
