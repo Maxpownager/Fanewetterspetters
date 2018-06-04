@@ -69,6 +69,7 @@ nav ul li:hover ul li {
 	text-transform: capitalize;
 	border-left: 1px solid black;
 	background-color: #fff;
+	opacity: 0.9;
 }
 
 nav .logo {
