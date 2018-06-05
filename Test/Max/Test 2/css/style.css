@@ -12,3 +12,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+.Nav-List {
+  list-style: none;
+  text-transform: capitalize;
+}
+
+.Nav-List a {
+  text-decoration: none;
+}
