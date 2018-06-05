@@ -6,7 +6,6 @@ body, div, nav, h1, p, ul, li, a {
 body {
 	font-family: Arial;
 	background-repeat: no-repeat;
-	background-color: white;
 }
 
 #globalnav {
@@ -64,6 +63,7 @@ nav ul li:hover ul li {
 	opacity: 0.9;
 }
 
+
 nav .active {
 	background-color: rgb(135,206,250,0.6);
 	outline: none;
@@ -87,4 +87,10 @@ nav .active {
 	width: 100%;
 	margin: 0;
 	padding: 0;
+}
+
+/* CONTENT */
+
+.content-container {
+	background: linear-gradient(white, rgb(135,206,250,0.4));
 }
