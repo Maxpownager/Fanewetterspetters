@@ -8,19 +8,19 @@ body {
 	background-repeat: no-repeat;
 }
 
-#globalnav {
+.main-nav {
 	position: fixed;
 	display: block;
 	background-color: #fff;
 	opacity: 0.9;
 }
 
-nav .globallogo {
+/* nav .globallogo {
 	float: left;
 	height: 50px;
 	line-height: 50px;
 	padding-right: 0px;
-}
+}*/
 
 nav ul {
 	list-style: none;
@@ -70,6 +70,7 @@ nav .active {
 	border-radius: 6px;
 }
 
+/*
 #LastMenuItem {
 	border: none;
 	border-right: 1px solid black;
@@ -88,9 +89,4 @@ nav .active {
 	margin: 0;
 	padding: 0;
 }
-
-/* CONTENT */
-
-.content-container {
-	background: linear-gradient(white, rgb(135,206,250,0.4));
-}
+*/
