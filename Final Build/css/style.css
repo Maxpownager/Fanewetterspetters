@@ -27,3 +27,10 @@ ul li a {
 	background-color: gray;
 	float: right;
 }
+
+.visible {
+	background-color: black;
+	float: left;
+	position: relative;
+	/* WTF DOES THIS DO */
+}
