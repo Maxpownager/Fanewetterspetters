@@ -9,14 +9,23 @@ body {
 }
 
 ul li {
-	float: right;
+/*	float: right; */
 	list-style: none;
 	text-align: center;
 }
 
 ul li a {
-	display: block;
+	display : block;
+	/* Niet inline-block bc er moeten nog borders */
+	text-decoration: none;
 }
+
+.visible a {
+	text-transform: uppercase;
+	line-height: 60px;
+	vertical-align: middle;
+}
+
 .main-nav {
 	overflow: hidden;
 	background-color: green;
@@ -29,8 +38,17 @@ ul li a {
 }
 
 .visible {
-	background-color: black;
+	background-color: white;
 	float: left;
-	position: relative;
-	/* WTF DOES THIS DO */
+	width: 20%;
+	height: 100%;
+}
+
+.hidden {
+	display: none;
+}
+
+.logo {
+	display: inline-block;
+	/* GEEN IDEE WAAROM BLOCK NIET WERKT MAAR HIJ DOET HET ZO. YEEY? */
 }
