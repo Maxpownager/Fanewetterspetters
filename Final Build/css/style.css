@@ -50,5 +50,6 @@ ul li a {
 
 .logo {
 	display: inline-block;
+	background-color: white;
 	/* GEEN IDEE WAAROM BLOCK NIET WERKT MAAR HIJ DOET HET ZO. YEEY? */
 }
