@@ -27,7 +27,6 @@ ul li a {
 }
 
 .main-nav {
-	overflow: hidden;
 	background-color: green;
 	position: fixed;
 }
@@ -46,6 +45,15 @@ ul li a {
 
 .hidden {
 	display: none;
+	background-color: black;
+}
+
+.hidden a{
+	text-transform: capitalize;
+}
+
+.visible:hover .hidden {
+	display: block;
 }
 
 .logo {
