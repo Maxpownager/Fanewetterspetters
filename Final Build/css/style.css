@@ -25,6 +25,9 @@ ul li a {
 	line-height: 60px;
 	vertical-align: middle;
 }
+#Last-item a {
+	border-radius: 0 0 0 6px;
+}
 
 #Last-item {
 	border-radius: 0 0 6px 6px;
@@ -33,11 +36,11 @@ ul li a {
 .main-nav {
 	background-color: white;
 	position: fixed;
+	opacity: 0.9;
 }
 
 .menu {
 	background-color: white;
-	opacity: 0.9;
 	float: right;
 	min-width: 800px;
 }
@@ -46,7 +49,6 @@ ul li a {
 	background-color: white;
 	box-sizing: border-box;
 	border-right: 1px solid black;
-	opacity: 0.9;
 	float: left;
 	width: 20%;
 	height: 100%;
@@ -56,12 +58,13 @@ ul li a {
 	display: none;
 	width: 100%;
 	border-right: 1px solid black;
-	/* BORDER FIXEN AAN DE LINKERKANT */
 
 }
 
 .hidden a{
 	text-transform: capitalize;
+	margin-left: -1px;
+	border-left: 1px solid black;
 }
 
 .visible:hover .hidden {
@@ -80,4 +83,11 @@ ul li a {
 	max-height: 100%;
 	min-height: 80px;
 	min-width: 104px;
+}
+.visible:hover {
+	background-color: navy;
+}
+
+.hidden:hover {
+	background-color: navy;
 }
